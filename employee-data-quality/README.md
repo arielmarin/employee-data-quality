@@ -39,7 +39,7 @@ La presencia de estos problemas permitió aplicar un flujo completo de Data Qual
 
 # Proceso realizado
 
-1. Exploración inicial
+## Exploración inicial
 
 En la primera etapa se realizó un análisis exploratorio para comprender la estructura del dataset y detectar posibles problemas.
 
@@ -53,7 +53,7 @@ Se evaluaron:
 
 Esta etapa permitió determinar qué transformaciones eran necesarias y definir una estrategia de limpieza adecuada.
 
-2. Identificación de problemas de calidad
+## Identificación de problemas de calidad
 
 Durante el análisis inicial se detectaron diferentes problemas dentro del dataset.
 
@@ -142,22 +142,28 @@ Principales resultados:
 - Mejora en la organización de la información.
 - Generación de indicadores para evaluar la calidad del dataset.
 
-
 El proceso permitió transformar datos con problemas de calidad en información más confiable y preparada para su análisis.
 
 # Dashboard de análisis
 
-Como etapa final del proyecto se desarrolló un dashboard para representar visualmente los resultados obtenidos durante el análisis.
+Como etapa final del proyecto se desarrolló un dashboard con el objetivo de comparar y visualizar el impacto del proceso de limpieza y transformación aplicado sobre el dataset.
 
-El objetivo fue transformar las métricas generadas durante el proceso de limpieza en una representación más clara e intuitiva, permitiendo una mejor interpretación del estado del dataset.
+Inicialmente, se analizaron indicadores de calidad para identificar el estado de los datos antes del proceso de limpieza, permitiendo observar la presencia de valores faltantes e inconsistencias que podían afectar la interpretación de la información.
 
-![Dashboard](images/Dashboard.png)
+Luego de aplicar las transformaciones necesarias, se generaron nuevas visualizaciones utilizando el dataset procesado, permitiendo realizar un análisis más claro de la información y obtener una representación más precisa de las características de los empleados.
 
-El dashboard permite visualizar:
+![Dashboard](images/Dashboard.jpg)
 
-- Indicadores generales de calidad.
-- Distribución de información.
-- Características principales de los empleados.
-- Resultados obtenidos luego del proceso de transformación.
+La transformación de los datos permitió pasar de un dataset con problemas de calidad a una fuente de información más organizada y confiable, facilitando la identificación de patrones, la interpretación de resultados y la generación de futuros análisis.
 
-Esta etapa final permitió comunicar los resultados del análisis de una forma más accesible y convertir los datos procesados en información útil para la toma de decisiones.
+El dashboard representa la última etapa del proyecto, donde los procesos de limpieza y validación realizados se convierten en información visual que puede ser utilizada para una mejor comprensión y toma de decisiones.
+
+# Conclusión
+
+Este proyecto permitió aplicar un flujo completo de trabajo orientado a la calidad de datos, comenzando desde un dataset con problemas de consistencia hasta obtener una estructura más ordenada y preparada para análisis posteriores.
+
+A través del proceso de exploración, identificación de problemas, limpieza y transformación, se logró mejorar la calidad de la información y comprender la importancia que tiene la preparación de los datos antes de realizar cualquier análisis.
+
+Además, la creación del dashboard permitió visualizar de forma más clara los resultados obtenidos, demostrando cómo un correcto tratamiento de los datos facilita la interpretación de la información y permite generar análisis más confiables.
+
+Este proyecto representa una aplicación práctica de técnicas utilizadas en escenarios reales de Data Analytics, donde la calidad de los datos es una etapa fundamental para obtener resultados precisos y útiles.
